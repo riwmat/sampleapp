@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 // Middleware to parse JSON
 app.use(express.json());
 
-// Basic route
+// Root endpoint - returns welcome message and server status
 app.get('/', (req, res) => {
   res.json({
     message: 'Welcome to the Sample App!',
@@ -19,7 +19,7 @@ app.get('/health', (req, res) => {
   res.json({ status: 'healthy' });
 });
 
-// API endpoint example
+// Greeting endpoint - returns personalized greeting message
 app.get('/api/greeting', (req, res) => {
   const name = req.query.name || 'World';
   res.json({ greeting: `Hello, ${name}!` });
