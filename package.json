@@ -1,0 +1,16 @@
+{
+  "name": "sampleapp-node",
+  "version": "1.0.0",
+  "description": "Sample Node.js application with Express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js"
+  },
+  "keywords": ["sample", "express", "node"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
