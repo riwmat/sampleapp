@@ -1,0 +1,16 @@
+{
+  "name": "sampleapp",
+  "version": "1.0.0",
+  "description": "A simple Node.js sample application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["sample", "node", "express"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
